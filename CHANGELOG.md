@@ -1,3 +1,44 @@
+# 1.2.0
+
+Add concept of experimental APIs: they are APIs meant to try out support for use cases we would like to address, but gives flexibility to find the right API interface. As such they are not covered by Semantic Versioning. Several are added to start things off: `find`, `getIndex`, `getLeaf`, `getLine`, `getLines`.
+
+- Merge disabling list keyboard shortcut when list format is disabled [#1257](https://github.com/quilljs/quill/pull/1257)
+
+Thanks to [@haugstrup](https://github.com/haugstrup) for your contributions to this release.
+
+
+# 1.1.10
+
+- Preserve user selection on API changes [#1152](https://github.com/quilljs/quill/issues/1152)
+- Fix backspacing into emojis [#1230](https://github.com/quilljs/quill/issues/1230)
+- Fix ability to type after emptying line in IE/Firefox [#1254](https://github.com/quilljs/quill/issues/1254)
+- Fix whitelisting block formats [#1256](https://github.com/quilljs/quill/issues/1256)
+
+Thank you [@benbro](https://github.com/benbro), [@haugstrup](https://github.com/haugstrup), [@peterweck](https://github.com/peterweck) and [@sbevels](https://github.com/sbevels) for contributions to this release!
+
+
+# 1.1.9
+
+- Flip tooltips when vertically out of bounds [#851](https://github.com/quilljs/quill/issues/851)
+- Fix IE11 autolinking and control backspace [#1028](https://github.com/quilljs/quill/issues/1028)
+- Only show tooltip when user initiates selection change [#1193](https://github.com/quilljs/quill/issues/1193)
+- Fix bug needing to click twice on align [#1220](https://github.com/quilljs/quill/issues/1220)
+- Fix cut + pasting videos [#1222](https://github.com/quilljs/quill/issues/1222)
+
+Thanks to [@amitguptagwl](https://github.com/amitguptagwl), [@antonlabunets](https://github.com/antonlabunets), [@benbro](https://github.com/benbro), [@eamodio](https://github.com/eamodio) and [@ygrishajev](https://github.com/ygrishajev) for your contributions to this release.
+
+
+# 1.1.8
+
+- Support pasting italics from Google Docs [#1185](https://github.com/quilljs/quill/issues/1185)
+- Fix setting dropdown picker back to default [#1191](https://github.com/quilljs/quill/issues/1191)
+- Fix code-block formatting on empty first line in Firefox [#1195](https://github.com/quilljs/quill/issues/1195)
+- Prevent formatting via keyboard shortcuts when not whitelisted [#1197](https://github.com/quilljs/quill/issues/1197)
+- Fix select-all copy and overwrite paste in Firefox [#1202](https://github.com/quilljs/quill/issues/1202)
+
+Thank you [@adfaure](https://github.com/adfaure), [@berndschimmer](https://github.com/berndschimmer), [@CoenWarmer](https://github.com/CoenWarmer), [@montlebalm](https://github.com/montlebalm), and [@TraceyYau](https://github.com/TraceyYau) for contributions to this release!
+
+
 # 1.1.7
 
 - Fix dropdown values reverting to default [#901](https://github.com/quilljs/quill/issues/901)
